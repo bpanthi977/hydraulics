@@ -1,9 +1,9 @@
 # hydraulics
-### _Your Name <your.name@example.com>_
 
-This is a project to do ... something.
+### Bibek Panthi <bpanthi977@gmail.com> 
 
-## License
+Solve various pipe flow problems of hydraulics. 
 
-Specify license here
+## Dependency:
+* [system-solver](https://github.com/bpanthi977/system-solver)
 

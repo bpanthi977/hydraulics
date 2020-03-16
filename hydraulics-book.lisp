@@ -5,7 +5,7 @@
 						`(,(first p) (progn (print ,(second p))
 											(make-instance 'parameter :value (or (eval (read)) ,(third p)) :name ,(symbol-name (first p)))))
 						`(,p (progn (print ,(symbol-name p))
-									(make-instance 'parameter :value (eval (read)) ,(symbol-name p))))))
+									(make-instance 'parameter :value (eval (read)) :name ,(symbol-name p))))))
      ,@body))
 
 
